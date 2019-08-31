@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Expenso</title>
+</head>
+<body>
+    
+    <div>
+        <h1>Welcome to Expense Manager</h1>
+        <p>Use our Expense manager to check your Income and Expense!</p>
+    </div>
+
+    <div id="allIncome">
+
+        <div class="incomeSelect">
+            <div id="chooseSalary" class="selectedTag" title="Please Enter Your salary">
+                <img src="https://www.4geeksacademy.co/wp-content/uploads/2019/02/salary-icon-png-7.png" alt="" width="50">
+                <p>Salary</p>
+            </div>
+            <div id="chooseRoyalties">
+                <img src="https://www.4geeksacademy.co/wp-content/uploads/2019/02/salary-icon-png-7.png" alt="" width="50">
+                <p>Royalties</p>
+            </div>
+            <div id="chooseBonus">
+                <img src="https://www.4geeksacademy.co/wp-content/uploads/2019/02/salary-icon-png-7.png" alt="" width="50">
+                <p>Bonus</p>
+            </div>
+            <div id="chooseOther">
+                <img src="https://www.edumed.org/wp-content/uploads/2019/03/Salaries-Icon.png" alt="" width="50">
+                <p>Any Other</p>
+            </div>
+        </div>
+
+        <div class="addIncome">
+            <div id="salaryDiv">
+                <label id="salaryLabel" for="">Add Your Salary *</label><br>
+                <input id="salaryInput" type="text" placeholder="Your Salary Amount: ex: 10000"><br>
+                <button id="addSalary">Add Salary </button>
+            </div>
+            <div id="royaltyDiv" class="displayNone">
+                <label id="royaltyLabel" for="">Add Your Royalty Income</label><br>
+                <input id="royaltyInput" type="text" placeholder="Add Royalties Amount"><br>
+                <button id="addRoyalty">Add Royalty</button>
+            </div>
+            <div id="bonusDiv" class="displayNone">
+                <label id="bonusLabel" for="">Add Bonus Amount</label><br>
+                <input id="bonusInput" type="text" placeholder="Add Bonus Amount"><br>
+                <button id="addBonus">Add Bonus</button>
+            </div>
+            <div id="otherDiv" class="displayNone">
+                <label id="otherLabel" for="">Add Any Other Income</label><br>
+                <input id="otherInput" type="text" placeholder="Any Other Income"><br>
+                <button id="addOther">Add Any Other</button>
+            </div>
+            <div id="totalSubmitDiv" class="displayNone">
+                
+                <button id="addTotal">Submit My Income</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="displayExpense" class="displayNone">
+        <div>
+            <h2 id="totalDisplay"></h2>
+        </div>
+        <div class="allexpense">
+            <div>
+                <img src="https://www.cibc.com/content/dam/personal_banking/mortgages/images/home-in-circle.png/_jcr_content/renditions/cq5dam.web.767.767.png" alt="" width="100">
+                <p>Enter your Rent</p>
+                <input id="rentInput" type="number" placeholder="Enter your home rent">
+            </div>
+            <div>
+                <img src="https://www.carmanskitchen.com.au/wp-content/themes/carmanskitchen/assets/img/bowl-cereal.png" alt="" width="100">
+                <p>Food & Drinks</p>
+                <input id="foodInput" type="number" placeholder="Your drinks expense">
+            </div>
+            <div>
+                <img src="https://www.welovetravel.info/wp-content/uploads/2018/01/logo_welovetravel-e1515010297324.png" alt="" width="100">
+                <p>Travel</p>
+                <input id="travelInput" type="number" placeholder="Your travel expsense">
+            </div>
+            <div>
+                <img src="https://www.bankbazaar.com/images/india/infographic/how-to-calculate-hdfc-loan-emi.png" alt="" width="100">
+                <p>Loan EMI</p>
+                <input id="emiInput" type="number" placeholder="Your loan emi">
+            </div>
+            <div>
+                <img src="https://www.bankbazaar.com/images/india/infographic/calculate-your-loan-repayment.png" alt="" width="100">
+                <p>Other Expense</p>
+                <input id="otherExpenseInput" type="number" placeholder="Any other expense">
+            </div>
+        </div>
+        <div>
+            <button id="submitExpense">Submit Your Expense</button>
+        </div>
+    </div>
+
+    <div id="totalSavingNow" class="displayNone">
+        <h1 id="totalSavingall"></h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

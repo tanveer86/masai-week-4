@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background: #3F51B5;
+    color: white;
+}
+.incomeSelect{
+    display: flex;
+    margin-left: 350px;
+    background: #F44336;
+    width: 600px;
+}
+.incomeSelect div {
+    border: 1px solid black;
+    text-align: center;
+    width: 150px; 
+    padding:10px;
+}
+.addIncome{
+    margin: 30px;
+}
+.displayNone{
+    display: none;
+}
+.selectedTag{
+    background: #8BC34A;
+}
+.expenseSelect{
+    display: flex;
+    margin-left: 350px;
+    background: #F44336;
+    width: 600px;
+}
+.expenseSelect div {
+    border: 1px solid black;
+    text-align: center;
+    width: 150px; 
+}
+.allexpense {
+    display: flex;
+    margin-left: 150px;
+}
+.allexpense div{
+    border: 1px solid black;
+    padding: 10px;
+}
+button {
+    background: #009688;
+    font-size: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+label{
+    font-size: 18px;
+}
+input{
+    border-radius: 5px;
+    text-align: center;
+}
